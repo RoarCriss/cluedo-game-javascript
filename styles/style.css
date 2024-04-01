@@ -1,0 +1,108 @@
+body {
+  font-family: "Courier Prime", monospace;
+  background-color: #222;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  padding: 20px;
+  text-align: center;
+  background-color: #040404;
+  border-bottom: 2px solid #444;
+}
+
+.encabezado img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenidoGeneral {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.introduccion,
+.instrucciones,
+.sospechosos {
+  margin-bottom: 40px;
+  background-color: #333;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.parrafo1 {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.instrucciones h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.instrucciones ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.instrucciones ol li {
+  margin-bottom: 10px;
+}
+
+.sospechosos h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.sospechosos ul {
+  list-style-type: disc;
+  padding-left: 0;
+}
+
+.sospechosos li {
+  margin-bottom: 5px;
+}
+
+.sospechosos ul li ul {
+  margin-top: 5px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.sospechosos ul li ul li {
+  font-style: italic;
+  color: #999;
+}
+
+.boton-inicio {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #ddd;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-inicio:hover {
+  background-color: #4c7e97;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px;
+  background-color: #040404;
+  border-top: 2px solid #444;
+}
+
+.pie img {
+  max-width: 100%;
+  height: auto;
+}
